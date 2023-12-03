@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #1d1d23;
+}
+h1{
+    color:#e2e2e3;
+}
+
+#container{
+    height: 10vh;
+    width : auto ;
+    background-color: #34344a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    color:#fcfcfc;
+
+}
+#activeTimers{
+    color:#fcfcfc;
+}
+
+#startTimer{
+    background: #f0f757 ;
+    border: none;
+    color: #48484b !important;
+    font-size: 18px!important;
+    padding: 5px  40px!important;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 5vh;
+}
+
+#startTimer:hover{
+    background:#079309;
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #39393e;
+    color: white;
+    height: 3vh;
+    width: 10vw;
+    margin: auto;
+    padding: 5px  40px!important;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #34344a;
+}
+
+.timer {
+    font-size: 24px;
+    
+    
+}
+
+.timer-ended {
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.time-left {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.stop-button {
+    background-color: #f0f757;
+    color: #34344a;
+    font-weight: bold;
+}
+
+.stop-button:hover {
+    background-color: #f0f757;
+}
+
+.delete-button {
+    background-color: #f0f757;
+    color: #34344a;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: #f0f757;
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
